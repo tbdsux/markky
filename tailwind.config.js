@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     colors,
     fontFamily: {
-      sans: ["'Inter'", ...defaultTheme.fontFamily.sans],
+      sans: ["Inter", ...defaultTheme.fontFamily.sans],
     },
 
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
