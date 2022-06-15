@@ -11,7 +11,7 @@ this is a sample hello world text for you
 `;
 
 function App() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState(sampleMarkdown);
 
   return (
     <div className="flex items-start justify-between ">
